@@ -3,7 +3,7 @@
 
 *Check back in early spring 2023 for details about the official challenge, model submissions, and leaderboard*
 
-*Following completion of Spring 2023 challenge, FRST23.1, an extension of FRST will be released. Vote on the main focus of this extensions in this repositories [discussion]('https://github.com/KelOdgSmile/FRST/discussions/3#discussion-4619686')*
+*Following completion of Spring 2023 challenge, FRST23.1, an extension of FRST will be released. Vote on the main focus of this extensions in this repositories [discussion](https://github.com/KelOdgSmile/FRST/discussions/3#discussion-4619686)*
 
 
 # Facial Reasoning Synthesis Task 
