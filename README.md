@@ -33,7 +33,7 @@ Our aim is to produce a living dataset with progressively more exhaustive labels
 
 | Name | Release date | Link | Details |
 | --- | --- | --- | --- |
-| FRST22.4 | Winter 2022 | [link to here]('./README.md') | Original Data with 60 Actors, Simple poses and lighting|
+| FRST22.4 | Winter 2022 | [link to here](https://github.com/KelOdgSmile/FRST) | Original Data with 60 Actors, Simple poses and lighting|
 | FRST23.1 | Spring 2023 | NA | Extension of FRST22.4 to new task, new data|
 | ... | ... | ... | ... |
 
@@ -94,9 +94,8 @@ The suggested split for this dataset is between actors. Of the all 60 actors, 6 
 
 |  File  |  Link  |  Size  |
 | --- | --- | --- |
-| Images | gdrive  | 11Gb |
-| Training Dataframe | gdrive | 100 Mb |
-| Testing Dataframe | gdrive | 20 Mb|
-|Triplet Dataframe | grdive| 50 Mb|
+| Images | [drive]( https://drive.google.com/file/d/1dX28L0Uvb-TQEkwC8RZOTPvm-Ra5vd0j/view?usp=sharing ) | 8Gb |
+| Training Dataframes | [drive](https://drive.google.com/file/d/1dX28L0Uvb-TQEkwC8RZOTPvm-Ra5vd0j/view?usp=sharing ) | 0.5 Mb |
+| Triplet Dataframes | soon to be released | 5 Mb|
 
 
