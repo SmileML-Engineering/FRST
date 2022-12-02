@@ -39,7 +39,7 @@ Our aim is to produce a living dataset with progressively more exhaustive labels
 
 
 ---
-## Dataset Layout
+## Current Annotations
 
 <img src="./imgs/GestureDistributionV1.png" 
      alt="Size Limit logo by Anton Lovchikov"
@@ -87,9 +87,56 @@ For any given frame, the
      width=500>
 ---
 ### Train Test Split
-The suggested split for this dataset is between actors. Of the all 60 actors, 6 are kept as validation, 6 as testing, which leaves 48 actors for training. This data split is chosen because of the presence of very similar frames for any given actor. If even non-identical frames from an actor were present in training and test data this would result in an inflated test accuracy.
+The suggested split for this dataset is between actors. Of the all 60 actors, 6 are kept as validation, 6 as testing, which leaves 488888888 actors for training. This data split is chosen because of the presence of very similar frames for any given actor. If even non-identical frames from an actor were present in training and test data this would result in an inflated test accuracy.
 
 ---
+## Dataset Layout
+There are two downloads for FRST22.4. One contains all of the images, totaling about 7 Gbs. Each image name is organized as FRST_{actor_name}.{frame number #5digits}.jpg
+Once unzipped the image directory is organized as FRST->Group#->images or 
+
+     FRST
+          ---->Group1
+               ---->FRST_Ada.00000.jpg 
+               ---->FRST_Ada.00001.jpg
+               ...
+               ...
+          ---->Group2
+               ---->FRST_Emanuel.00000.jpg
+               ...
+          ...
+
+---
+The organization of annotations takes several dataframes, but is largely straightforward and easy to use.
+### ActorsKey.csv
+This contains a list of includes actors, their respective headpose dataframe, whether they belong to the train set, test set, or validation set, and any missing frames if applicable.
+For instance
+
+| actor | headpose | traintestval | bad_frames|
+| --- | --- | --- | --- |
+| Ada | 0 | train | [] |
+| Amelia | 0 | train | [] |
+| ... | ... | ... | ... |
+
+### HeadPoseAnnotations_n.csv
+ 
+These dataframes are what are reference in the ActorsKey dataframe, where n is equal to the relative headpose value in the ActorsKey dataframe. From above we see that the actor Adas headpose are given by HeadPoseAnnotations_0.csv .
+Each index of this dataframe corresponds to the frame number of an actor. For instance headpose.iloc[51] holds the annotations for FRST_Actor.00051.jpg and so forth.
+The headpose is given as two degrees corresponding to head_yaw and head_pitch.
+| head_yaw | head_pitch|
+| --- | --- |
+| 0 | 0 |
+| 0.01 | 0 |
+| 0.02 | 0 |
+| ... | ... |
+
+### FRSTAnnotations.csv
+
+This is the largest dataframe containing annotations for the gestures and emotions detailed above. As with the headposes above, the index of this dataframe corresponds with the frame which the row annotates.
+
+
+
+
+
 ## Download Links
 
 |  File  |  Link  |  Size  |
@@ -97,5 +144,4 @@ The suggested split for this dataset is between actors. Of the all 60 actors, 6 
 | Images | [drive]( https://drive.google.com/file/d/1YcEHfZ-n7Ifvx9NoLIgiEwwog3n63puW/view?usp=sharing ) | 7 Gb |
 | Training Dataframes | [drive](https://drive.google.com/file/d/1dX28L0Uvb-TQEkwC8RZOTPvm-Ra5vd0j/view?usp=sharing ) | 0.5 Mb |
 | Triplet Dataframes | soon to be released | 5 Mb|
-
 
