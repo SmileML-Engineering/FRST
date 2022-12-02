@@ -91,7 +91,7 @@ The suggested split for this dataset is between actors. Of the all 60 actors, 6 
 
 ---
 ## Dataset Layout
-There are two downloads for FRST22.4. One contains all of the images, totaling about 7 Gbs. Each image name is organized as FRST_{actor_name}.{frame number #5digits}.jpg
+There are two downloads for FRST22.4. The first contains all of the images, totaling about 7 Gbs. Each image name is organized as FRST_{actor_name}.{frame number #5digits}.jpg
 Once unzipped the image directory is organized as FRST->Group#->images or 
 
      FRST
@@ -106,7 +106,7 @@ Once unzipped the image directory is organized as FRST->Group#->images or
           ...
 
 ---
-The organization of annotations takes several dataframes, but is largely straightforward and easy to use.
+The second download contains all of the annotations for the images provided. The organization of annotations takes several dataframes, but is largely straightforward and easy to use.
 ### ActorsKey.csv
 This contains a list of includes actors, their respective headpose dataframe, whether they belong to the train set, test set, or validation set, and any missing frames if applicable.
 For instance
