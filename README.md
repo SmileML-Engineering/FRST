@@ -135,8 +135,6 @@ This is the largest dataframe containing annotations for the gestures and emotio
 
 
 
-
-
 ## Download Links
 
 |  File  |  Link  |  Size  |
@@ -144,4 +142,9 @@ This is the largest dataframe containing annotations for the gestures and emotio
 | Images | [drive]( https://drive.google.com/file/d/1YcEHfZ-n7Ifvx9NoLIgiEwwog3n63puW/view?usp=sharing ) | 7 Gb |
 | Training Dataframes | [drive](https://drive.google.com/file/d/1dX28L0Uvb-TQEkwC8RZOTPvm-Ra5vd0j/view?usp=sharing ) | 0.5 Mb |
 | Triplet Dataframes | soon to be released | 5 Mb|
+
+
+## Acknowledgements
+This dataset was created and distributed by Smile-ML Inc. for non-commercial purposes.
+The creation of this version of the dataset would not have been possible without the amazing work and permissive licenses of the team at Epic Games. Images were created using both the Unreal Engine 5 and Metahuman technologies they developed.
 
