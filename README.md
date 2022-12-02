@@ -1,5 +1,7 @@
 <img src="./imgs/FRSTLogoV4.png" 
      alt="FRST- Facial Reasoning Synthesis Task" >
+     
+## Hosted and Organized by Smile-ML Inc
 
 *Check back in early spring 2023 for details about the official challenge, model submissions, and leaderboard*
 
