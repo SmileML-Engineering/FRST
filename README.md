@@ -82,14 +82,14 @@ The available emotion distributions are composed of the 7 emotion modes previous
 * Joy
 * Sadness
 * Surprise
-For any given frame, the 
+
 
 <img src="./imgs/AdaAnnotations.gif"
      alt="Example of gesture/emotion sequence"
      width=500>
 ---
 ### Train Test Split
-The suggested split for this dataset is between actors. Of the all 60 actors, 6 are kept as validation, 6 as testing, which leaves 488888888 actors for training. This data split is chosen because of the presence of very similar frames for any given actor. If even non-identical frames from an actor were present in training and test data this would result in an inflated test accuracy.
+The suggested split for this dataset is between actors. Of the all 60 actors, 6 are kept as validation, 6 as testing, which leaves 48 actors for training. This data split is chosen because of the presence of very similar frames for any given actor. If even non-identical frames from an actor were present in training and test data this would result in an inflated test accuracy.
 
 ---
 ## Dataset Layout
