@@ -1,6 +1,7 @@
-<img src="./imgs/FRSTLogoV4.png" 
-     alt="FRST- Facial Reasoning Synthesis Task" >
-     
+<img src="./imgs/repo_logo.png" 
+     alt="FRST- Facial Reasoning Synthesis Task"
+     width=100>
+
 ## Hosted and Organized by Smile-ML Inc
 
 *Check back in early spring 2023 for details about the official challenge, model submissions, and leaderboard*
@@ -20,10 +21,9 @@ This repository exists as the home of the FRST Dataset and Challenge Resources. 
  * Also provided are sets of triplets for similarity training with the FRST dataset. 
 
 ---
-<img src="./imgs/FRSTFaceExample.png" 
-     alt="Size Limit logo by Anton Lovchikov"
+<img src="./imgs/repo_logo.png" 
      align="right"
-     width=400>
+     width=100>
 
 ## Dataset Principles
 
@@ -147,6 +147,4 @@ This is the largest dataframe containing annotations for the gestures and emotio
 
 
 ## Acknowledgements
-This dataset was created and distributed by Smile-ML Inc. for non-commercial purposes.
-The creation of this version of the dataset would not have been possible without the amazing work and permissive licenses of the team at Epic Games. Images were created using both the Unreal Engine 5 and Metahuman technologies they developed.
-
+This dataset was created and distributed by SmileML, Inc. The creation of this version of the dataset would not have been possible without the amazing work and permissive licenses of the team at Epic Games. Images were created using both the Unreal Engine 5 and Metahuman technologies they developed.
